@@ -1,0 +1,4 @@
+Invoking command in '/home/imtne.local/leo.chouippe/ros_space/build/Stage': /usr/bin/cmake --build /home/imtne.local/leo.chouippe/ros_space/build/Stage -- -j12 -l12
+Invoked command in '/home/imtne.local/leo.chouippe/ros_space/build/Stage' returned '0': /usr/bin/cmake --build /home/imtne.local/leo.chouippe/ros_space/build/Stage -- -j12 -l12
+Invoking command in '/home/imtne.local/leo.chouippe/ros_space/build/Stage': /usr/bin/cmake --install /home/imtne.local/leo.chouippe/ros_space/build/Stage
+Invoked command in '/home/imtne.local/leo.chouippe/ros_space/build/Stage' returned '0': /usr/bin/cmake --install /home/imtne.local/leo.chouippe/ros_space/build/Stage

@@ -1,0 +1,129 @@
+[0.237s] Invoking command in '/home/imtne.local/leo.chouippe/ros_space/build/Stage': /usr/bin/cmake --build /home/imtne.local/leo.chouippe/ros_space/build/Stage -- -j12 -l12
+[0.843s] [ 57%] Built target stage
+[1.028s] [ 94%] Built target dynamic
+[1.029s] [ 98%] Built target expand_pioneer
+[1.030s] [ 98%] Built target rasterize
+[1.030s] [ 98%] Built target fasr
+[1.031s] [ 98%] Built target lasernoise
+[1.031s] [ 98%] Built target wander
+[1.031s] [ 98%] Built target stagebinary
+[1.032s] [ 98%] Built target pioneer_flocking
+[1.033s] [ 98%] Built target source
+[1.033s] [ 98%] Built target sink
+[1.038s] [ 98%] Built target expand_swarm
+[1.056s] [100%] Built target fasr2
+[1.415s] Invoked command in '/home/imtne.local/leo.chouippe/ros_space/build/Stage' returned '0': /usr/bin/cmake --build /home/imtne.local/leo.chouippe/ros_space/build/Stage -- -j12 -l12
+[1.580s] Invoking command in '/home/imtne.local/leo.chouippe/ros_space/build/Stage': /usr/bin/cmake --install /home/imtne.local/leo.chouippe/ros_space/build/Stage
+[1.604s] -- Install configuration: "RELEASE"
+[1.627s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/pkgconfig/stage.pc
+[1.634s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/cmake/Stage/stage-config.cmake
+[1.634s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/cmake/Stage/stage-config-version.cmake
+[1.653s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/bin/stage
+[1.903s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/libstage.so.4.3.0
+[1.907s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/libstage.so
+[1.909s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/include/Stage-4.3/stage.hh
+[1.911s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/fasr.so
+[1.912s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/sink.so
+[1.912s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/source.so
+[1.912s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/wander.so
+[1.912s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/pioneer_flocking.so
+[1.912s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/rasterize.so
+[1.912s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/lasernoise.so
+[1.912s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/dynamic.so
+[1.912s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/fasr2.so
+[1.913s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/blue.png
+[1.913s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/death.png
+[1.913s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/green.png
+[1.913s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/logo.png
+[1.913s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/mains.png
+[1.915s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/mainspower.png
+[1.918s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/question_mark.png
+[1.924s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/red.png
+[1.933s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/stagelogo.png
+[1.940s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/stall-old.png
+[1.942s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/stall.png
+[1.950s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/rgb.txt
+[1.957s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/rgb.txt
+[1.960s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/amcl-sonar.cfg
+[1.984s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/autolab.cfg
+[1.985s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/camera.cfg
+[1.992s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/everything.cfg
+[1.996s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/lsp_test.cfg
+[2.002s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/mbicp.cfg
+[2.005s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/nd.cfg
+[2.024s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/roomba.cfg
+[2.024s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/simple.cfg
+[2.028s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/test.cfg
+[2.030s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg
+[2.043s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/vfh.cfg
+[2.051s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wavefront-remote.cfg
+[2.052s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wavefront.cfg
+[2.058s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi.cfg
+[2.071s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/SFU.world
+[2.077s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/autolab.world
+[2.085s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/camera.world
+[2.085s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/circuit.world
+[2.094s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/everything.world
+[2.108s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/fasr.world
+[2.117s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/fasr2.world
+[2.120s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/fasr_plan.world
+[2.148s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/large.world
+[2.151s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/lsp_test.world
+[2.175s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/mbicp.world
+[2.183s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pioneer_flocking.world
+[2.183s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pioneer_follow.world
+[2.188s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pioneer_walle.world
+[2.195s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/roomba.world
+[2.197s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/sensor_noise_demo.world
+[2.197s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/sensor_noise_module_demo.world
+[2.200s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/simple.world
+[2.203s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/uoa_robotics_lab.world
+[2.207s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi.world
+[2.214s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/beacons.inc
+[2.214s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/chatterbox.inc
+[2.216s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/hokuyo.inc
+[2.224s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/irobot.inc
+[2.224s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/map.inc
+[2.224s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/objects.inc
+[2.228s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pantilt.inc
+[2.235s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pioneer.inc
+[2.237s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/sick.inc
+[2.237s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/ubot.inc
+[2.249s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[2.251s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/walle.inc
+[2.251s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/cfggen.sh
+[2.251s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/test.sh
+[2.252s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/worldgen.sh
+[2.253s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/expand_swarm.so
+[2.258s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/expand_pioneer.so
+[2.265s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/889_05.png
+[2.274s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[2.274s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[2.282s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/autolab.png
+[2.282s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/cave.png
+[2.290s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/cave_compact.png
+[2.290s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/cave_filled.png
+[2.290s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/frieburg.png
+[2.292s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/ghost.png
+[2.292s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/hospital.png
+[2.294s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/hospital_section.png
+[2.308s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/human_outline.png
+[2.308s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/mbicp.png
+[2.310s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/rink.png
+[2.321s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/sal2.png
+[2.322s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png
+[2.340s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/space_invader.png
+[2.341s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/submarine.png
+[2.344s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/submarine_small.png
+[2.365s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/table.png
+[2.365s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[2.365s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/commando.world
+[2.365s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/hosp_wifi.world
+[2.366s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[2.372s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi.world
+[2.374s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi_itu.world
+[2.377s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world
+[2.384s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi_ray.world
+[2.394s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi_simple.world
+[2.394s] -- Up-to-date: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/map.inc
+[2.430s] Invoked command in '/home/imtne.local/leo.chouippe/ros_space/build/Stage' returned '0': /usr/bin/cmake --install /home/imtne.local/leo.chouippe/ros_space/build/Stage

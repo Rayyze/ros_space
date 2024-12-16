@@ -1,0 +1,123 @@
+[0.089s] Invoking command in '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2': CMAKE_PREFIX_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage:/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin:${PATH} /usr/bin/cmake /home/imtne.local/leo.chouippe/ros_space/pkg-stage/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/imtne.local/leo.chouippe/ros_space/install/stage_ros2
+[0.408s] -- The C compiler identification is GNU 11.4.0
+[0.605s] -- The CXX compiler identification is GNU 11.4.0
+[0.663s] -- Detecting C compiler ABI info
+[1.103s] -- Detecting C compiler ABI info - done
+[1.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.180s] -- Detecting C compile features
+[1.182s] -- Detecting C compile features - done
+[1.234s] -- Detecting CXX compiler ABI info
+[1.569s] -- Detecting CXX compiler ABI info - done
+[1.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.636s] -- Detecting CXX compile features
+[1.638s] -- Detecting CXX compile features - done
+[1.687s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.894s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.466s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[2.796s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.875s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.976s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.080s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.429s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.459s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.765s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.830s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.929s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.202s] -- Found rclcpp_components: 21.0.7 (/opt/ros/iron/share/rclcpp_components/cmake)
+[4.424s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[4.688s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[4.847s] -- Found tf2_ros: 0.31.7 (/opt/ros/iron/share/tf2_ros/cmake)
+[5.392s] -- Found tf2_geometry_msgs: 0.31.7 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[5.468s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[5.474s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.475s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.517s] -- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+[5.611s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.226s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.229s] -- Configured cppcheck include dirs: /home/imtne.local/leo.chouippe/ros_space/pkg-stage/stage_ros2/./include;$<BUILD_INTERFACE:/home/imtne.local/leo.chouippe/ros_space/pkg-stage/stage_ros2/include>
+[6.237s] -- Configured cppcheck exclude dirs and/or files: 
+[6.259s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.261s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.301s] -- Added test 'lint_cmake' to check CMake code style
+[6.330s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.496s] -- Added test 'uncrustify' to check C / C++ code style
+[6.498s] -- Configured uncrustify additional arguments: 
+[6.521s] -- Added test 'xmllint' to check XML markup files
+[6.665s] -- Configuring done
+[7.392s] -- Generating done
+[7.532s] -- Build files have been written to: /home/imtne.local/leo.chouippe/ros_space/build/stage_ros2
+[7.563s] Invoked command in '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage:/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin:${PATH} /usr/bin/cmake /home/imtne.local/leo.chouippe/ros_space/pkg-stage/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/imtne.local/leo.chouippe/ros_space/install/stage_ros2
+[7.573s] Invoking command in '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2': CMAKE_PREFIX_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage:/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin:${PATH} /usr/bin/cmake --build /home/imtne.local/leo.chouippe/ros_space/build/stage_ros2 -- -j12 -l12
+[7.780s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[7.780s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[7.780s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[7.782s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[20.521s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[24.928s] [ 71%] Built target stage_node
+[25.012s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[31.020s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[32.266s] [100%] Built target stage_ros2
+[32.313s] Invoked command in '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage:/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin:${PATH} /usr/bin/cmake --build /home/imtne.local/leo.chouippe/ros_space/build/stage_ros2 -- -j12 -l12
+[32.435s] Invoking command in '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2': CMAKE_PREFIX_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage:/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin:${PATH} /usr/bin/cmake --install /home/imtne.local/leo.chouippe/ros_space/build/stage_ros2
+[32.463s] -- Install configuration: ""
+[32.486s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[32.517s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[32.536s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch
+[32.574s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[32.621s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[32.657s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[32.680s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[32.699s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[32.726s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world
+[32.739s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps
+[32.751s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[32.771s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[32.893s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[32.973s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[33.004s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[33.021s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[33.077s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[33.175s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[33.482s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[33.579s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/cave.world
+[33.618s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+[33.636s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[33.659s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[33.702s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/hallway.world
+[33.722s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/include
+[33.732s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[33.822s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[33.915s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/lines.world
+[33.949s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/straden.world
+[34.007s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[34.046s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config
+[34.076s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz
+[34.086s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[34.121s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[34.155s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[34.205s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[34.255s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[34.306s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[34.335s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[34.375s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy
+[34.390s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[34.429s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/lib/libstage_node.so
+[35.432s] -- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/lib/libstage_node.so" to ""
+[35.465s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/lib/stage_ros2/stage_ros2
+[35.686s] -- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""
+[35.698s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[35.725s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[35.756s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[35.787s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[35.802s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/path.sh
+[35.825s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[35.841s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/local_setup.bash
+[35.882s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/local_setup.sh
+[35.902s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[35.936s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[35.959s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/package.dsv
+[35.987s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[36.009s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[36.027s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[36.046s] -- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/package.xml
+[36.093s] Invoked command in '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage:/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin:${PATH} /usr/bin/cmake --install /home/imtne.local/leo.chouippe/ros_space/build/stage_ros2

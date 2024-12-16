@@ -1,0 +1,1010 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (Stage) JobQueued: {'identifier': 'Stage', 'dependencies': OrderedDict()}
+[0.000575] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict([('Stage', '/home/imtne.local/leo.chouippe/ros_space/install/Stage')])}
+[0.000683] (Stage) JobStarted: {'identifier': 'Stage'}
+[0.039024] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'cmake'}
+[0.042926] (Stage) Command: {'cmd': ['/usr/bin/cmake', '/home/imtne.local/leo.chouippe/ros_space/pkg-stage/Stage', '-DCMAKE_INSTALL_PREFIX=/home/imtne.local/leo.chouippe/ros_space/install/Stage'], 'cwd': '/home/imtne.local/leo.chouippe/ros_space/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leo.chouippe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/imtne.local/leo.chouippe'), ('OLDPWD', '/home/imtne.local/leo.chouippe/ros_space/pkg-stage'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/876419782/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install:/home/imtne.local/leo.chouippe/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'leo.chouippe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leo.chouippe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MAILLET-12-U:@/tmp/.ICE-unix/2253,unix/MAILLET-12-U:/tmp/.ICE-unix/2253'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31ec8ea2_b732_4785_a25e_411fe7e6538e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/876419782'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/876419782/.mutter-Xwaylandauth.7BH7Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/876419782/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_876419782_hwLJGT'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imtne.local/leo.chouippe/ros_space/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg')]), 'shell': False}
+[0.098020] (-) TimerEvent: {}
+[0.198562] (-) TimerEvent: {}
+[0.299135] (-) TimerEvent: {}
+[0.307019] (Stage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399342] (-) TimerEvent: {}
+[0.499958] (-) TimerEvent: {}
+[0.532272] (Stage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.557940] (Stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600147] (-) TimerEvent: {}
+[0.700745] (-) TimerEvent: {}
+[0.801372] (-) TimerEvent: {}
+[0.901970] (-) TimerEvent: {}
+[0.954351] (Stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.002222] (-) TimerEvent: {}
+[1.034537] (Stage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.035500] (Stage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.037209] (Stage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.083997] (Stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.102352] (-) TimerEvent: {}
+[1.202964] (-) TimerEvent: {}
+[1.303559] (-) TimerEvent: {}
+[1.404148] (-) TimerEvent: {}
+[1.504550] (-) TimerEvent: {}
+[1.540917] (Stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.596548] (Stage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.597488] (Stage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.600324] (Stage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.604740] (-) TimerEvent: {}
+[1.624468] (Stage) StdoutLine: {'line': b'-- Stage version 4.3.0\n'}
+[1.625297] (Stage) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[1.627428] (Stage) StdoutLine: {'line': b'-- Installing Libraries to /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib\n'}
+[1.634402] (Stage) StdoutLine: {'line': b'-- Installing Plugins to /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3\n'}
+[1.656411] (Stage) StdoutLine: {'line': b'-- Build type RELEASE\n'}
+[1.664542] (Stage) StdoutLine: {'line': b'-- Checking for libtool\n'}
+[1.692319] (Stage) StdoutLine: {'line': b'-- Checking for required libraries...\n'}
+[1.704853] (-) TimerEvent: {}
+[1.717073] (Stage) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.725756] (Stage) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.740936] (Stage) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.744484] (Stage) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[1.747263] (Stage) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[1.750372] (Stage) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[1.751723] (Stage) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.753312] (Stage) StderrLine: {'line': b'\n'}
+[1.756598] (Stage) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[1.759819] (Stage) StderrLine: {'line': b'\n'}
+[1.761385] (Stage) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[1.762485] (Stage) StderrLine: {'line': b'\n'}
+[1.764183] (Stage) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[1.766004] (Stage) StderrLine: {'line': b'\n'}
+[1.774085] (Stage) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[1.776164] (Stage) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[1.777685] (Stage) StderrLine: {'line': b'\n'}
+[1.779185] (Stage) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[1.780444] (Stage) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[1.782543] (Stage) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.782600] (Stage) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindFLTK.cmake:87 (find_package)\n'}
+[1.784275] (Stage) StderrLine: {'line': b'  CMakeLists.txt:100 (find_package)\n'}
+[1.784328] (Stage) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.804328] (Stage) StderrLine: {'line': b'\x1b[0m\n'}
+[1.805777] (-) TimerEvent: {}
+[1.805871] (Stage) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[1.808621] (Stage) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.808675] (Stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.906000] (-) TimerEvent: {}
+[2.006636] (-) TimerEvent: {}
+[2.107227] (-) TimerEvent: {}
+[2.207706] (-) TimerEvent: {}
+[2.227248] (Stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.230642] (Stage) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.307866] (-) TimerEvent: {}
+[2.408443] (-) TimerEvent: {}
+[2.509058] (-) TimerEvent: {}
+[2.609660] (-) TimerEvent: {}
+[2.652781] (Stage) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.674736] (Stage) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.709826] (-) TimerEvent: {}
+[2.810424] (-) TimerEvent: {}
+[2.910963] (-) TimerEvent: {}
+[3.011442] (-) TimerEvent: {}
+[3.028433] (Stage) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[3.031017] (Stage) StdoutLine: {'line': b'-- Looking for remove\n'}
+[3.111667] (-) TimerEvent: {}
+[3.212297] (-) TimerEvent: {}
+[3.312907] (-) TimerEvent: {}
+[3.413822] (-) TimerEvent: {}
+[3.514512] (-) TimerEvent: {}
+[3.615438] (-) TimerEvent: {}
+[3.715992] (-) TimerEvent: {}
+[3.816359] (-) TimerEvent: {}
+[3.839782] (Stage) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[3.854333] (Stage) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[3.916589] (-) TimerEvent: {}
+[4.017442] (-) TimerEvent: {}
+[4.118163] (-) TimerEvent: {}
+[4.218724] (-) TimerEvent: {}
+[4.319292] (-) TimerEvent: {}
+[4.404056] (Stage) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[4.419454] (-) TimerEvent: {}
+[4.423770] (Stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[4.519657] (-) TimerEvent: {}
+[4.620217] (-) TimerEvent: {}
+[4.720795] (-) TimerEvent: {}
+[4.821280] (-) TimerEvent: {}
+[4.843911] (Stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[4.863029] (Stage) StdoutLine: {'line': b'-- Found FLTK: fltk_images;fltk_forms;fltk_gl;/usr/lib/x86_64-linux-gnu/libGL.so;fltk  \n'}
+[4.870639] (Stage) StdoutLine: {'line': b'-- Checking for optional libraries...\n'}
+[4.902181] (Stage) StdoutLine: {'line': b'-- Installation path CMAKE_INSTALL_PREFIX=/home/imtne.local/leo.chouippe/ros_space/install/Stage\n'}
+[4.921322] (Stage) StdoutLine: {'line': b'-- Configuring libstage\n'}
+[4.921801] (-) TimerEvent: {}
+[5.022298] (-) TimerEvent: {}
+[5.068696] (Stage) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[5.070342] (Stage) StdoutLine: {'line': b"-- Checking for one of the modules 'playercore>=2.1.0'\n"}
+[5.080463] (Stage) StdoutLine: {'line': b'--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.\n'}
+[5.122508] (-) TimerEvent: {}
+[5.201384] (Stage) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.222668] (-) TimerEvent: {}
+[5.323287] (-) TimerEvent: {}
+[5.423900] (-) TimerEvent: {}
+[5.524522] (-) TimerEvent: {}
+[5.625165] (-) TimerEvent: {}
+[5.725790] (-) TimerEvent: {}
+[5.826412] (-) TimerEvent: {}
+[5.927057] (-) TimerEvent: {}
+[6.027698] (-) TimerEvent: {}
+[6.128307] (-) TimerEvent: {}
+[6.228918] (-) TimerEvent: {}
+[6.329549] (-) TimerEvent: {}
+[6.430148] (-) TimerEvent: {}
+[6.530709] (-) TimerEvent: {}
+[6.631294] (-) TimerEvent: {}
+[6.731922] (-) TimerEvent: {}
+[6.832569] (-) TimerEvent: {}
+[6.933194] (-) TimerEvent: {}
+[7.033768] (-) TimerEvent: {}
+[7.134279] (-) TimerEvent: {}
+[7.234883] (-) TimerEvent: {}
+[7.335556] (-) TimerEvent: {}
+[7.417607] (Stage) StdoutLine: {'line': b'-- Generating done\n'}
+[7.435789] (-) TimerEvent: {}
+[7.536387] (-) TimerEvent: {}
+[7.636981] (-) TimerEvent: {}
+[7.737711] (-) TimerEvent: {}
+[7.743326] (Stage) StdoutLine: {'line': b'-- Build files have been written to: /home/imtne.local/leo.chouippe/ros_space/build/Stage\n'}
+[7.764488] (Stage) CommandEnded: {'returncode': 0}
+[7.767745] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'build'}
+[7.779879] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/imtne.local/leo.chouippe/ros_space/build/Stage', '--', '-j12', '-l12'], 'cwd': '/home/imtne.local/leo.chouippe/ros_space/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leo.chouippe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/imtne.local/leo.chouippe'), ('OLDPWD', '/home/imtne.local/leo.chouippe/ros_space/pkg-stage'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/876419782/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install:/home/imtne.local/leo.chouippe/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'leo.chouippe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leo.chouippe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MAILLET-12-U:@/tmp/.ICE-unix/2253,unix/MAILLET-12-U:/tmp/.ICE-unix/2253'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31ec8ea2_b732_4785_a25e_411fe7e6538e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/876419782'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/876419782/.mutter-Xwaylandauth.7BH7Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/876419782/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_876419782_hwLJGT'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imtne.local/leo.chouippe/ros_space/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg')]), 'shell': False}
+[7.837861] (-) TimerEvent: {}
+[7.938358] (-) TimerEvent: {}
+[7.980956] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o\x1b[0m\n'}
+[7.981699] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o\x1b[0m\n'}
+[7.982155] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o\x1b[0m\n'}
+[7.982549] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o\x1b[0m\n'}
+[7.982925] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o\x1b[0m\n'}
+[7.983304] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o\x1b[0m\n'}
+[7.983627] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o\x1b[0m\n'}
+[7.983943] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o\x1b[0m\n'}
+[7.984255] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o\x1b[0m\n'}
+[7.984566] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o\x1b[0m\n'}
+[7.984872] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o\x1b[0m\n'}
+[7.985549] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o\x1b[0m\n'}
+[8.038507] (-) TimerEvent: {}
+[8.138969] (-) TimerEvent: {}
+[8.239953] (-) TimerEvent: {}
+[8.340674] (-) TimerEvent: {}
+[8.441255] (-) TimerEvent: {}
+[8.541924] (-) TimerEvent: {}
+[8.642559] (-) TimerEvent: {}
+[8.743096] (-) TimerEvent: {}
+[8.843696] (-) TimerEvent: {}
+[8.944282] (-) TimerEvent: {}
+[9.044826] (-) TimerEvent: {}
+[9.145350] (-) TimerEvent: {}
+[9.245927] (-) TimerEvent: {}
+[9.346643] (-) TimerEvent: {}
+[9.447416] (-) TimerEvent: {}
+[9.548095] (-) TimerEvent: {}
+[9.648874] (-) TimerEvent: {}
+[9.749541] (-) TimerEvent: {}
+[9.850426] (-) TimerEvent: {}
+[9.951497] (-) TimerEvent: {}
+[10.037645] (Stage) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o\x1b[0m\n'}
+[10.048476] (Stage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o\x1b[0m\n'}
+[10.052079] (-) TimerEvent: {}
+[10.064691] (Stage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o\x1b[0m\n'}
+[10.111961] (Stage) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o\x1b[0m\n'}
+[10.152265] (-) TimerEvent: {}
+[10.171828] (Stage) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o\x1b[0m\n'}
+[10.252383] (-) TimerEvent: {}
+[10.258749] (Stage) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o\x1b[0m\n'}
+[10.304054] (Stage) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o\x1b[0m\n'}
+[10.327941] (Stage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o\x1b[0m\n'}
+[10.352574] (-) TimerEvent: {}
+[10.424618] (Stage) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o\x1b[0m\n'}
+[10.452712] (-) TimerEvent: {}
+[10.553584] (-) TimerEvent: {}
+[10.580888] (Stage) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o\x1b[0m\n'}
+[10.641104] (Stage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o\x1b[0m\n'}
+[10.653636] (-) TimerEvent: {}
+[10.758506] (-) TimerEvent: {}
+[10.859052] (-) TimerEvent: {}
+[10.959629] (-) TimerEvent: {}
+[11.060183] (-) TimerEvent: {}
+[11.160739] (-) TimerEvent: {}
+[11.261374] (-) TimerEvent: {}
+[11.361962] (-) TimerEvent: {}
+[11.462594] (-) TimerEvent: {}
+[11.563509] (-) TimerEvent: {}
+[11.664207] (-) TimerEvent: {}
+[11.764838] (-) TimerEvent: {}
+[11.865446] (-) TimerEvent: {}
+[11.966099] (-) TimerEvent: {}
+[12.051570] (Stage) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o\x1b[0m\n'}
+[12.066358] (-) TimerEvent: {}
+[12.166929] (-) TimerEvent: {}
+[12.224829] (Stage) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o\x1b[0m\n'}
+[12.267081] (-) TimerEvent: {}
+[12.365050] (Stage) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o\x1b[0m\n'}
+[12.367237] (-) TimerEvent: {}
+[12.384996] (Stage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o\x1b[0m\n'}
+[12.412360] (Stage) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o\x1b[0m\n'}
+[12.454606] (Stage) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o\x1b[0m\n'}
+[12.467439] (-) TimerEvent: {}
+[12.568262] (-) TimerEvent: {}
+[12.624558] (Stage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o\x1b[0m\n'}
+[12.668397] (-) TimerEvent: {}
+[12.676924] (Stage) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o\x1b[0m\n'}
+[12.727988] (Stage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o\x1b[0m\n'}
+[12.768570] (-) TimerEvent: {}
+[12.869049] (-) TimerEvent: {}
+[12.891888] (Stage) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o\x1b[0m\n'}
+[12.969196] (-) TimerEvent: {}
+[13.069647] (-) TimerEvent: {}
+[13.170206] (-) TimerEvent: {}
+[13.270841] (-) TimerEvent: {}
+[13.371366] (-) TimerEvent: {}
+[13.471907] (-) TimerEvent: {}
+[13.572445] (-) TimerEvent: {}
+[13.672999] (-) TimerEvent: {}
+[13.773561] (-) TimerEvent: {}
+[13.874042] (-) TimerEvent: {}
+[13.974631] (-) TimerEvent: {}
+[14.075187] (-) TimerEvent: {}
+[14.175600] (-) TimerEvent: {}
+[14.276093] (-) TimerEvent: {}
+[14.376632] (-) TimerEvent: {}
+[14.477101] (-) TimerEvent: {}
+[14.577503] (-) TimerEvent: {}
+[14.677830] (-) TimerEvent: {}
+[14.778165] (-) TimerEvent: {}
+[14.878428] (-) TimerEvent: {}
+[14.978707] (-) TimerEvent: {}
+[15.078964] (-) TimerEvent: {}
+[15.179238] (-) TimerEvent: {}
+[15.279517] (-) TimerEvent: {}
+[15.379796] (-) TimerEvent: {}
+[15.469682] (Stage) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libstage.so\x1b[0m\n'}
+[15.479993] (-) TimerEvent: {}
+[15.580535] (-) TimerEvent: {}
+[15.681095] (-) TimerEvent: {}
+[15.781359] (-) TimerEvent: {}
+[15.881713] (-) TimerEvent: {}
+[15.982316] (-) TimerEvent: {}
+[16.082887] (-) TimerEvent: {}
+[16.183512] (-) TimerEvent: {}
+[16.284086] (-) TimerEvent: {}
+[16.384575] (-) TimerEvent: {}
+[16.484971] (-) TimerEvent: {}
+[16.585615] (-) TimerEvent: {}
+[16.615654] (Stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[16.685834] (-) TimerEvent: {}
+[16.718221] (Stage) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o\x1b[0m\n'}
+[16.719850] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o\x1b[0m\n'}
+[16.720475] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o\x1b[0m\n'}
+[16.720944] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o\x1b[0m\n'}
+[16.722773] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o\x1b[0m\n'}
+[16.724700] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o\x1b[0m\n'}
+[16.726889] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o\x1b[0m\n'}
+[16.729037] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o\x1b[0m\n'}
+[16.729609] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o\x1b[0m\n'}
+[16.732073] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o\x1b[0m\n'}
+[16.734093] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o\x1b[0m\n'}
+[16.736313] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o\x1b[0m\n'}
+[16.786003] (-) TimerEvent: {}
+[16.886575] (-) TimerEvent: {}
+[16.987051] (-) TimerEvent: {}
+[17.087517] (-) TimerEvent: {}
+[17.188022] (-) TimerEvent: {}
+[17.288521] (-) TimerEvent: {}
+[17.389165] (-) TimerEvent: {}
+[17.489727] (-) TimerEvent: {}
+[17.590387] (-) TimerEvent: {}
+[17.691085] (-) TimerEvent: {}
+[17.791693] (-) TimerEvent: {}
+[17.892300] (-) TimerEvent: {}
+[17.993057] (-) TimerEvent: {}
+[18.093687] (-) TimerEvent: {}
+[18.194362] (-) TimerEvent: {}
+[18.294987] (-) TimerEvent: {}
+[18.395514] (-) TimerEvent: {}
+[18.495974] (-) TimerEvent: {}
+[18.522586] (Stage) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared module sink.so\x1b[0m\n'}
+[18.577051] (Stage) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared module lasernoise.so\x1b[0m\n'}
+[18.596102] (-) TimerEvent: {}
+[18.616192] (Stage) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared module dynamic.so\x1b[0m\n'}
+[18.687754] (Stage) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared module wander.so\x1b[0m\n'}
+[18.688467] (Stage) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared module expand_pioneer.so\x1b[0m\n'}
+[18.688821] (Stage) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared module pioneer_flocking.so\x1b[0m\n'}
+[18.689007] (Stage) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared module expand_swarm.so\x1b[0m\n'}
+[18.696331] (-) TimerEvent: {}
+[18.711898] (Stage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared module rasterize.so\x1b[0m\n'}
+[18.713181] (Stage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable stage\x1b[0m\n'}
+[18.733636] (Stage) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared module fasr.so\x1b[0m\n'}
+[18.780966] (Stage) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared module source.so\x1b[0m\n'}
+[18.796621] (-) TimerEvent: {}
+[18.898622] (-) TimerEvent: {}
+[19.001506] (-) TimerEvent: {}
+[19.033339] (Stage) StdoutLine: {'line': b'[ 96%] Built target lasernoise\n'}
+[19.058768] (Stage) StdoutLine: {'line': b'[ 96%] Built target sink\n'}
+[19.101742] (-) TimerEvent: {}
+[19.129294] (Stage) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o\x1b[0m\n'}
+[19.201955] (-) TimerEvent: {}
+[19.218360] (Stage) StdoutLine: {'line': b'[ 98%] Built target dynamic\n'}
+[19.228049] (Stage) StdoutLine: {'line': b'[ 98%] Built target wander\n'}
+[19.242507] (Stage) StdoutLine: {'line': b'[ 98%] Built target pioneer_flocking\n'}
+[19.295125] (Stage) StdoutLine: {'line': b'[ 98%] Built target rasterize\n'}
+[19.295439] (Stage) StdoutLine: {'line': b'[ 98%] Built target expand_swarm\n'}
+[19.302002] (-) TimerEvent: {}
+[19.306094] (Stage) StdoutLine: {'line': b'[ 98%] Built target expand_pioneer\n'}
+[19.324472] (Stage) StdoutLine: {'line': b'[ 98%] Built target fasr\n'}
+[19.355116] (Stage) StdoutLine: {'line': b'[ 98%] Built target stagebinary\n'}
+[19.355502] (Stage) StdoutLine: {'line': b'[ 98%] Built target source\n'}
+[19.402139] (-) TimerEvent: {}
+[19.502429] (-) TimerEvent: {}
+[19.602736] (-) TimerEvent: {}
+[19.703042] (-) TimerEvent: {}
+[19.803333] (-) TimerEvent: {}
+[19.903718] (-) TimerEvent: {}
+[19.915247] (Stage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module fasr2.so\x1b[0m\n'}
+[20.003873] (-) TimerEvent: {}
+[20.104328] (-) TimerEvent: {}
+[20.191740] (Stage) StdoutLine: {'line': b'[100%] Built target fasr2\n'}
+[20.204448] (-) TimerEvent: {}
+[20.305013] (-) TimerEvent: {}
+[20.338353] (Stage) CommandEnded: {'returncode': 0}
+[20.405097] (-) TimerEvent: {}
+[20.411623] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'install'}
+[20.441310] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/imtne.local/leo.chouippe/ros_space/build/Stage'], 'cwd': '/home/imtne.local/leo.chouippe/ros_space/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leo.chouippe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/imtne.local/leo.chouippe'), ('OLDPWD', '/home/imtne.local/leo.chouippe/ros_space/pkg-stage'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/876419782/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install:/home/imtne.local/leo.chouippe/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'leo.chouippe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leo.chouippe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MAILLET-12-U:@/tmp/.ICE-unix/2253,unix/MAILLET-12-U:/tmp/.ICE-unix/2253'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31ec8ea2_b732_4785_a25e_411fe7e6538e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/876419782'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/876419782/.mutter-Xwaylandauth.7BH7Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/876419782/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_876419782_hwLJGT'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imtne.local/leo.chouippe/ros_space/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg')]), 'shell': False}
+[20.477446] (Stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[20.492764] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/pkgconfig/stage.pc\n'}
+[20.505317] (-) TimerEvent: {}
+[20.524593] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/cmake/Stage/stage-config.cmake\n'}
+[20.553975] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[20.586044] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/bin/stage\n'}
+[20.605525] (-) TimerEvent: {}
+[20.612732] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin/stage" to ""\n'}
+[20.614357] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/libstage.so.4.3.0\n'}
+[20.705733] (-) TimerEvent: {}
+[20.741307] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/libstage.so\n'}
+[20.762717] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/include/Stage-4.3/stage.hh\n'}
+[20.802694] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/fasr.so\n'}
+[20.805902] (-) TimerEvent: {}
+[20.839949] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/fasr.so" to ""\n'}
+[20.842097] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/sink.so\n'}
+[20.906193] (-) TimerEvent: {}
+[20.921534] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/sink.so" to ""\n'}
+[20.923923] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/source.so\n'}
+[20.967550] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/source.so" to ""\n'}
+[20.969429] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/wander.so\n'}
+[21.006351] (-) TimerEvent: {}
+[21.013423] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/wander.so" to ""\n'}
+[21.016052] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[21.100173] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/pioneer_flocking.so" to ""\n'}
+[21.102720] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/rasterize.so\n'}
+[21.108470] (-) TimerEvent: {}
+[21.151642] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/rasterize.so" to ""\n'}
+[21.153962] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/lasernoise.so\n'}
+[21.189518] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/lasernoise.so" to ""\n'}
+[21.191905] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/dynamic.so\n'}
+[21.208682] (-) TimerEvent: {}
+[21.227731] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/dynamic.so" to ""\n'}
+[21.229963] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/fasr2.so\n'}
+[21.271052] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/fasr2.so" to ""\n'}
+[21.290756] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/blue.png\n'}
+[21.308823] (-) TimerEvent: {}
+[21.322920] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/death.png\n'}
+[21.361795] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/green.png\n'}
+[21.387632] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/logo.png\n'}
+[21.406125] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/mains.png\n'}
+[21.408996] (-) TimerEvent: {}
+[21.458544] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/mainspower.png\n'}
+[21.487881] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/question_mark.png\n'}
+[21.509145] (-) TimerEvent: {}
+[21.518800] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/red.png\n'}
+[21.540514] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/stagelogo.png\n'}
+[21.578636] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/stall-old.png\n'}
+[21.600651] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/stall.png\n'}
+[21.609320] (-) TimerEvent: {}
+[21.628457] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/assets/rgb.txt\n'}
+[21.649732] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/rgb.txt\n'}
+[21.679653] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[21.700190] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/autolab.cfg\n'}
+[21.709543] (-) TimerEvent: {}
+[21.736141] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/camera.cfg\n'}
+[21.760045] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/everything.cfg\n'}
+[21.789861] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/lsp_test.cfg\n'}
+[21.809784] (-) TimerEvent: {}
+[21.820743] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/mbicp.cfg\n'}
+[21.851511] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/nd.cfg\n'}
+[21.876101] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/roomba.cfg\n'}
+[21.906040] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/simple.cfg\n'}
+[21.909948] (-) TimerEvent: {}
+[21.919982] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/test.cfg\n'}
+[21.945534] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[21.978946] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/vfh.cfg\n'}
+[22.003264] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[22.010238] (-) TimerEvent: {}
+[22.032589] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wavefront.cfg\n'}
+[22.059591] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi.cfg\n'}
+[22.083688] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/SFU.world\n'}
+[22.108472] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/autolab.world\n'}
+[22.110349] (-) TimerEvent: {}
+[22.133800] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/camera.world\n'}
+[22.158054] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/circuit.world\n'}
+[22.179228] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/everything.world\n'}
+[22.199542] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/fasr.world\n'}
+[22.210518] (-) TimerEvent: {}
+[22.225952] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/fasr2.world\n'}
+[22.242829] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/fasr_plan.world\n'}
+[22.261818] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/large.world\n'}
+[22.281156] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/lsp_test.world\n'}
+[22.300488] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/mbicp.world\n'}
+[22.310704] (-) TimerEvent: {}
+[22.325600] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pioneer_flocking.world\n'}
+[22.348758] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pioneer_follow.world\n'}
+[22.383541] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pioneer_walle.world\n'}
+[22.410876] (-) TimerEvent: {}
+[22.414458] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/roomba.world\n'}
+[22.440645] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[22.470514] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[22.502211] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/simple.world\n'}
+[22.511040] (-) TimerEvent: {}
+[22.528043] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[22.564379] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi.world\n'}
+[22.605388] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/beacons.inc\n'}
+[22.611203] (-) TimerEvent: {}
+[22.635885] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/chatterbox.inc\n'}
+[22.660297] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/hokuyo.inc\n'}
+[22.688905] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/irobot.inc\n'}
+[22.711369] (-) TimerEvent: {}
+[22.713803] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/map.inc\n'}
+[22.737496] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/objects.inc\n'}
+[22.761791] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pantilt.inc\n'}
+[22.808992] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/pioneer.inc\n'}
+[22.811467] (-) TimerEvent: {}
+[22.843647] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/sick.inc\n'}
+[22.863268] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/ubot.inc\n'}
+[22.887977] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[22.911638] (-) TimerEvent: {}
+[22.913337] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/walle.inc\n'}
+[22.939290] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/cfggen.sh\n'}
+[22.963654] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/test.sh\n'}
+[22.977268] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/worldgen.sh\n'}
+[23.007779] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/expand_swarm.so\n'}
+[23.011737] (-) TimerEvent: {}
+[23.043079] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/expand_swarm.so" to ""\n'}
+[23.046017] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[23.073124] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib/Stage-4.3/expand_pioneer.so" to ""\n'}
+[23.085868] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[23.104583] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[23.111985] (-) TimerEvent: {}
+[23.184493] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[23.205417] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[23.212157] (-) TimerEvent: {}
+[23.225279] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/cave.png\n'}
+[23.251446] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[23.271244] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[23.309446] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[23.312395] (-) TimerEvent: {}
+[23.354058] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[23.385817] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[23.412637] (-) TimerEvent: {}
+[23.423101] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[23.455545] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[23.467961] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[23.488278] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/rink.png\n'}
+[23.512847] (-) TimerEvent: {}
+[23.530999] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[23.555448] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[23.597064] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[23.613066] (-) TimerEvent: {}
+[23.624427] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[23.649947] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[23.669510] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/table.png\n'}
+[23.700491] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[23.713240] (-) TimerEvent: {}
+[23.747550] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/commando.world\n'}
+[23.784864] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[23.803186] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[23.813426] (-) TimerEvent: {}
+[23.834221] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi.world\n'}
+[23.865527] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[23.890337] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[23.912424] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[23.913538] (-) TimerEvent: {}
+[23.948901] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[23.978201] (Stage) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/Stage/share/stage/worlds/wifi/map.inc\n'}
+[24.009247] (Stage) CommandEnded: {'returncode': 0}
+[24.013668] (-) TimerEvent: {}
+[24.114184] (-) TimerEvent: {}
+[24.214819] (-) TimerEvent: {}
+[24.228308] (Stage) JobEnded: {'identifier': 'Stage', 'rc': 0}
+[24.234905] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[24.296770] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[24.302634] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/imtne.local/leo.chouippe/ros_space/pkg-stage/stage_ros2', '-DCMAKE_INSTALL_PREFIX=/home/imtne.local/leo.chouippe/ros_space/install/stage_ros2'], 'cwd': '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leo.chouippe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/imtne.local/leo.chouippe'), ('OLDPWD', '/home/imtne.local/leo.chouippe/ros_space/pkg-stage'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/876419782/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install:/home/imtne.local/leo.chouippe/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'leo.chouippe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leo.chouippe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MAILLET-12-U:@/tmp/.ICE-unix/2253,unix/MAILLET-12-U:/tmp/.ICE-unix/2253'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31ec8ea2_b732_4785_a25e_411fe7e6538e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/876419782'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/876419782/.mutter-Xwaylandauth.7BH7Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/876419782/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_876419782_hwLJGT'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/Stage:/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron')]), 'shell': False}
+[24.324397] (-) TimerEvent: {}
+[24.424945] (-) TimerEvent: {}
+[24.525594] (-) TimerEvent: {}
+[24.626199] (-) TimerEvent: {}
+[24.643033] (stage_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[24.726419] (-) TimerEvent: {}
+[24.826893] (-) TimerEvent: {}
+[24.840122] (stage_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[24.897462] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[24.927085] (-) TimerEvent: {}
+[25.027666] (-) TimerEvent: {}
+[25.128238] (-) TimerEvent: {}
+[25.228764] (-) TimerEvent: {}
+[25.329107] (-) TimerEvent: {}
+[25.337371] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[25.411126] (stage_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[25.414776] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[25.416703] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[25.429284] (-) TimerEvent: {}
+[25.468324] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[25.529516] (-) TimerEvent: {}
+[25.630050] (-) TimerEvent: {}
+[25.730534] (-) TimerEvent: {}
+[25.804121] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[25.830773] (-) TimerEvent: {}
+[25.868782] (stage_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[25.869774] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[25.872460] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[25.922004] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[25.930909] (-) TimerEvent: {}
+[26.031366] (-) TimerEvent: {}
+[26.128796] (stage_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[26.131481] (-) TimerEvent: {}
+[26.231731] (-) TimerEvent: {}
+[26.332096] (-) TimerEvent: {}
+[26.432746] (-) TimerEvent: {}
+[26.533387] (-) TimerEvent: {}
+[26.634035] (-) TimerEvent: {}
+[26.700794] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[26.734216] (-) TimerEvent: {}
+[26.834695] (-) TimerEvent: {}
+[26.935135] (-) TimerEvent: {}
+[27.030277] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[27.035304] (-) TimerEvent: {}
+[27.109923] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[27.135463] (-) TimerEvent: {}
+[27.210464] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[27.235682] (-) TimerEvent: {}
+[27.314469] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[27.335761] (-) TimerEvent: {}
+[27.436023] (-) TimerEvent: {}
+[27.536307] (-) TimerEvent: {}
+[27.636668] (-) TimerEvent: {}
+[27.664035] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[27.692835] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[27.736800] (-) TimerEvent: {}
+[27.837193] (-) TimerEvent: {}
+[27.937505] (-) TimerEvent: {}
+[28.000026] (stage_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[28.037685] (-) TimerEvent: {}
+[28.064987] (stage_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[28.137896] (-) TimerEvent: {}
+[28.164060] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[28.237998] (-) TimerEvent: {}
+[28.338294] (-) TimerEvent: {}
+[28.437106] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 21.0.7 (/opt/ros/iron/share/rclcpp_components/cmake)\n'}
+[28.438408] (-) TimerEvent: {}
+[28.539952] (-) TimerEvent: {}
+[28.640492] (-) TimerEvent: {}
+[28.659359] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[28.740618] (-) TimerEvent: {}
+[28.840889] (-) TimerEvent: {}
+[28.923116] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)\n'}
+[28.941014] (-) TimerEvent: {}
+[29.041296] (-) TimerEvent: {}
+[29.082084] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.31.7 (/opt/ros/iron/share/tf2_ros/cmake)\n'}
+[29.141473] (-) TimerEvent: {}
+[29.241962] (-) TimerEvent: {}
+[29.342433] (-) TimerEvent: {}
+[29.442779] (-) TimerEvent: {}
+[29.543096] (-) TimerEvent: {}
+[29.626872] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.31.7 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)\n'}
+[29.643219] (-) TimerEvent: {}
+[29.702220] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)\n'}
+[29.708116] (stage_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[29.709353] (stage_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[29.743408] (-) TimerEvent: {}
+[29.751675] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)\n'}
+[29.843587] (-) TimerEvent: {}
+[29.844388] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[29.943750] (-) TimerEvent: {}
+[30.044264] (-) TimerEvent: {}
+[30.144886] (-) TimerEvent: {}
+[30.245494] (-) TimerEvent: {}
+[30.346117] (-) TimerEvent: {}
+[30.446756] (-) TimerEvent: {}
+[30.460583] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[30.462590] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/imtne.local/leo.chouippe/ros_space/pkg-stage/stage_ros2/./include;$<BUILD_INTERFACE:/home/imtne.local/leo.chouippe/ros_space/pkg-stage/stage_ros2/include>\n'}
+[30.463656] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[30.493596] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[30.494162] (stage_ros2) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[30.535458] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[30.546871] (-) TimerEvent: {}
+[30.565219] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[30.647102] (-) TimerEvent: {}
+[30.730258] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[30.730764] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[30.747257] (-) TimerEvent: {}
+[30.755580] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[30.847513] (-) TimerEvent: {}
+[30.899709] (stage_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[30.947731] (-) TimerEvent: {}
+[31.048343] (-) TimerEvent: {}
+[31.148968] (-) TimerEvent: {}
+[31.249575] (-) TimerEvent: {}
+[31.350155] (-) TimerEvent: {}
+[31.450598] (-) TimerEvent: {}
+[31.551220] (-) TimerEvent: {}
+[31.626542] (stage_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[31.651409] (-) TimerEvent: {}
+[31.751929] (-) TimerEvent: {}
+[31.766698] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/imtne.local/leo.chouippe/ros_space/build/stage_ros2\n'}
+[31.797728] (stage_ros2) CommandEnded: {'returncode': 0}
+[31.799587] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[31.805806] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2', '--', '-j12', '-l12'], 'cwd': '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leo.chouippe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/imtne.local/leo.chouippe'), ('OLDPWD', '/home/imtne.local/leo.chouippe/ros_space/pkg-stage'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/876419782/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install:/home/imtne.local/leo.chouippe/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'leo.chouippe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leo.chouippe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MAILLET-12-U:@/tmp/.ICE-unix/2253,unix/MAILLET-12-U:/tmp/.ICE-unix/2253'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31ec8ea2_b732_4785_a25e_411fe7e6538e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/876419782'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/876419782/.mutter-Xwaylandauth.7BH7Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/876419782/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_876419782_hwLJGT'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/Stage:/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron')]), 'shell': False}
+[31.852096] (-) TimerEvent: {}
+[31.952594] (-) TimerEvent: {}
+[32.014883] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[32.015173] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[32.015328] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[32.015829] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[32.052724] (-) TimerEvent: {}
+[32.162145] (-) TimerEvent: {}
+[32.262458] (-) TimerEvent: {}
+[32.362761] (-) TimerEvent: {}
+[32.463017] (-) TimerEvent: {}
+[32.563296] (-) TimerEvent: {}
+[32.663595] (-) TimerEvent: {}
+[32.763858] (-) TimerEvent: {}
+[32.864196] (-) TimerEvent: {}
+[32.964583] (-) TimerEvent: {}
+[33.064934] (-) TimerEvent: {}
+[33.165277] (-) TimerEvent: {}
+[33.265671] (-) TimerEvent: {}
+[33.366043] (-) TimerEvent: {}
+[33.466428] (-) TimerEvent: {}
+[33.566830] (-) TimerEvent: {}
+[33.667279] (-) TimerEvent: {}
+[33.767698] (-) TimerEvent: {}
+[33.868077] (-) TimerEvent: {}
+[33.968462] (-) TimerEvent: {}
+[34.068860] (-) TimerEvent: {}
+[34.169238] (-) TimerEvent: {}
+[34.269635] (-) TimerEvent: {}
+[34.370073] (-) TimerEvent: {}
+[34.470490] (-) TimerEvent: {}
+[34.570992] (-) TimerEvent: {}
+[34.671439] (-) TimerEvent: {}
+[34.771809] (-) TimerEvent: {}
+[34.872217] (-) TimerEvent: {}
+[34.972615] (-) TimerEvent: {}
+[35.073046] (-) TimerEvent: {}
+[35.173462] (-) TimerEvent: {}
+[35.273892] (-) TimerEvent: {}
+[35.374308] (-) TimerEvent: {}
+[35.474666] (-) TimerEvent: {}
+[35.575026] (-) TimerEvent: {}
+[35.675377] (-) TimerEvent: {}
+[35.775721] (-) TimerEvent: {}
+[35.876123] (-) TimerEvent: {}
+[35.976561] (-) TimerEvent: {}
+[36.076962] (-) TimerEvent: {}
+[36.177393] (-) TimerEvent: {}
+[36.277875] (-) TimerEvent: {}
+[36.378392] (-) TimerEvent: {}
+[36.478832] (-) TimerEvent: {}
+[36.579221] (-) TimerEvent: {}
+[36.679582] (-) TimerEvent: {}
+[36.779965] (-) TimerEvent: {}
+[36.880327] (-) TimerEvent: {}
+[36.980714] (-) TimerEvent: {}
+[37.081130] (-) TimerEvent: {}
+[37.181543] (-) TimerEvent: {}
+[37.281924] (-) TimerEvent: {}
+[37.382310] (-) TimerEvent: {}
+[37.482676] (-) TimerEvent: {}
+[37.583043] (-) TimerEvent: {}
+[37.683413] (-) TimerEvent: {}
+[37.783778] (-) TimerEvent: {}
+[37.884179] (-) TimerEvent: {}
+[37.984524] (-) TimerEvent: {}
+[38.084903] (-) TimerEvent: {}
+[38.185449] (-) TimerEvent: {}
+[38.286148] (-) TimerEvent: {}
+[38.386518] (-) TimerEvent: {}
+[38.486853] (-) TimerEvent: {}
+[38.587189] (-) TimerEvent: {}
+[38.687525] (-) TimerEvent: {}
+[38.787910] (-) TimerEvent: {}
+[38.888234] (-) TimerEvent: {}
+[38.988548] (-) TimerEvent: {}
+[39.088899] (-) TimerEvent: {}
+[39.189219] (-) TimerEvent: {}
+[39.289558] (-) TimerEvent: {}
+[39.389856] (-) TimerEvent: {}
+[39.490176] (-) TimerEvent: {}
+[39.590477] (-) TimerEvent: {}
+[39.690810] (-) TimerEvent: {}
+[39.791121] (-) TimerEvent: {}
+[39.891490] (-) TimerEvent: {}
+[39.991885] (-) TimerEvent: {}
+[40.092343] (-) TimerEvent: {}
+[40.192914] (-) TimerEvent: {}
+[40.293527] (-) TimerEvent: {}
+[40.393991] (-) TimerEvent: {}
+[40.495650] (-) TimerEvent: {}
+[40.595967] (-) TimerEvent: {}
+[40.696265] (-) TimerEvent: {}
+[40.796550] (-) TimerEvent: {}
+[40.896899] (-) TimerEvent: {}
+[40.997225] (-) TimerEvent: {}
+[41.097556] (-) TimerEvent: {}
+[41.197834] (-) TimerEvent: {}
+[41.298077] (-) TimerEvent: {}
+[41.398350] (-) TimerEvent: {}
+[41.498628] (-) TimerEvent: {}
+[41.598901] (-) TimerEvent: {}
+[41.699178] (-) TimerEvent: {}
+[41.799458] (-) TimerEvent: {}
+[41.899735] (-) TimerEvent: {}
+[42.000019] (-) TimerEvent: {}
+[42.100304] (-) TimerEvent: {}
+[42.200578] (-) TimerEvent: {}
+[42.300856] (-) TimerEvent: {}
+[42.401136] (-) TimerEvent: {}
+[42.501414] (-) TimerEvent: {}
+[42.601697] (-) TimerEvent: {}
+[42.701974] (-) TimerEvent: {}
+[42.802259] (-) TimerEvent: {}
+[42.902545] (-) TimerEvent: {}
+[43.002824] (-) TimerEvent: {}
+[43.103106] (-) TimerEvent: {}
+[43.203429] (-) TimerEvent: {}
+[43.303754] (-) TimerEvent: {}
+[43.404274] (-) TimerEvent: {}
+[43.504569] (-) TimerEvent: {}
+[43.604886] (-) TimerEvent: {}
+[43.705240] (-) TimerEvent: {}
+[43.805664] (-) TimerEvent: {}
+[43.906083] (-) TimerEvent: {}
+[44.006500] (-) TimerEvent: {}
+[44.107158] (-) TimerEvent: {}
+[44.207818] (-) TimerEvent: {}
+[44.308489] (-) TimerEvent: {}
+[44.409153] (-) TimerEvent: {}
+[44.509694] (-) TimerEvent: {}
+[44.610207] (-) TimerEvent: {}
+[44.710863] (-) TimerEvent: {}
+[44.755054] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[44.811086] (-) TimerEvent: {}
+[44.911623] (-) TimerEvent: {}
+[45.011881] (-) TimerEvent: {}
+[45.112160] (-) TimerEvent: {}
+[45.212446] (-) TimerEvent: {}
+[45.312821] (-) TimerEvent: {}
+[45.413455] (-) TimerEvent: {}
+[45.513940] (-) TimerEvent: {}
+[45.614207] (-) TimerEvent: {}
+[45.732125] (-) TimerEvent: {}
+[45.832424] (-) TimerEvent: {}
+[45.932778] (-) TimerEvent: {}
+[46.033127] (-) TimerEvent: {}
+[46.133411] (-) TimerEvent: {}
+[46.233755] (-) TimerEvent: {}
+[46.334653] (-) TimerEvent: {}
+[46.435985] (-) TimerEvent: {}
+[46.536838] (-) TimerEvent: {}
+[46.638187] (-) TimerEvent: {}
+[46.739327] (-) TimerEvent: {}
+[46.840414] (-) TimerEvent: {}
+[46.940818] (-) TimerEvent: {}
+[47.041125] (-) TimerEvent: {}
+[47.141488] (-) TimerEvent: {}
+[47.241996] (-) TimerEvent: {}
+[47.342302] (-) TimerEvent: {}
+[47.442635] (-) TimerEvent: {}
+[47.543066] (-) TimerEvent: {}
+[47.643716] (-) TimerEvent: {}
+[47.744288] (-) TimerEvent: {}
+[47.844612] (-) TimerEvent: {}
+[47.944993] (-) TimerEvent: {}
+[48.045712] (-) TimerEvent: {}
+[48.146284] (-) TimerEvent: {}
+[48.246793] (-) TimerEvent: {}
+[48.347080] (-) TimerEvent: {}
+[48.447394] (-) TimerEvent: {}
+[48.547729] (-) TimerEvent: {}
+[48.647962] (-) TimerEvent: {}
+[48.748225] (-) TimerEvent: {}
+[48.848487] (-) TimerEvent: {}
+[48.948750] (-) TimerEvent: {}
+[49.049065] (-) TimerEvent: {}
+[49.149647] (-) TimerEvent: {}
+[49.162496] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[49.246642] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[49.249736] (-) TimerEvent: {}
+[49.349981] (-) TimerEvent: {}
+[49.450277] (-) TimerEvent: {}
+[49.550578] (-) TimerEvent: {}
+[49.650862] (-) TimerEvent: {}
+[49.751183] (-) TimerEvent: {}
+[49.851503] (-) TimerEvent: {}
+[49.951820] (-) TimerEvent: {}
+[50.052164] (-) TimerEvent: {}
+[50.152519] (-) TimerEvent: {}
+[50.252832] (-) TimerEvent: {}
+[50.353178] (-) TimerEvent: {}
+[50.453503] (-) TimerEvent: {}
+[50.553821] (-) TimerEvent: {}
+[50.654171] (-) TimerEvent: {}
+[50.754488] (-) TimerEvent: {}
+[50.854803] (-) TimerEvent: {}
+[50.955114] (-) TimerEvent: {}
+[51.055441] (-) TimerEvent: {}
+[51.155780] (-) TimerEvent: {}
+[51.256267] (-) TimerEvent: {}
+[51.356585] (-) TimerEvent: {}
+[51.456911] (-) TimerEvent: {}
+[51.557242] (-) TimerEvent: {}
+[51.657589] (-) TimerEvent: {}
+[51.757916] (-) TimerEvent: {}
+[51.858247] (-) TimerEvent: {}
+[51.958549] (-) TimerEvent: {}
+[52.058852] (-) TimerEvent: {}
+[52.159160] (-) TimerEvent: {}
+[52.259474] (-) TimerEvent: {}
+[52.359807] (-) TimerEvent: {}
+[52.460119] (-) TimerEvent: {}
+[52.560446] (-) TimerEvent: {}
+[52.660770] (-) TimerEvent: {}
+[52.761108] (-) TimerEvent: {}
+[52.861457] (-) TimerEvent: {}
+[52.961775] (-) TimerEvent: {}
+[53.062101] (-) TimerEvent: {}
+[53.162420] (-) TimerEvent: {}
+[53.262736] (-) TimerEvent: {}
+[53.363044] (-) TimerEvent: {}
+[53.463358] (-) TimerEvent: {}
+[53.563678] (-) TimerEvent: {}
+[53.663988] (-) TimerEvent: {}
+[53.764436] (-) TimerEvent: {}
+[53.865192] (-) TimerEvent: {}
+[53.965919] (-) TimerEvent: {}
+[54.066263] (-) TimerEvent: {}
+[54.166636] (-) TimerEvent: {}
+[54.266949] (-) TimerEvent: {}
+[54.367272] (-) TimerEvent: {}
+[54.467584] (-) TimerEvent: {}
+[54.567897] (-) TimerEvent: {}
+[54.668180] (-) TimerEvent: {}
+[54.768725] (-) TimerEvent: {}
+[54.869934] (-) TimerEvent: {}
+[54.970660] (-) TimerEvent: {}
+[55.071609] (-) TimerEvent: {}
+[55.172022] (-) TimerEvent: {}
+[55.255165] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[55.272180] (-) TimerEvent: {}
+[55.372614] (-) TimerEvent: {}
+[55.472896] (-) TimerEvent: {}
+[55.573232] (-) TimerEvent: {}
+[55.673629] (-) TimerEvent: {}
+[55.791997] (-) TimerEvent: {}
+[55.892436] (-) TimerEvent: {}
+[55.992759] (-) TimerEvent: {}
+[56.093138] (-) TimerEvent: {}
+[56.193509] (-) TimerEvent: {}
+[56.293873] (-) TimerEvent: {}
+[56.394216] (-) TimerEvent: {}
+[56.494796] (-) TimerEvent: {}
+[56.500581] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[56.547388] (stage_ros2) CommandEnded: {'returncode': 0}
+[56.594956] (-) TimerEvent: {}
+[56.661812] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[56.663670] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2'], 'cwd': '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leo.chouippe'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/imtne.local/leo.chouippe'), ('OLDPWD', '/home/imtne.local/leo.chouippe/ros_space/pkg-stage'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/876419782/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install:/home/imtne.local/leo.chouippe/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'leo.chouippe'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leo.chouippe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/imtne.local/leo.chouippe/ros_space/install/Stage/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MAILLET-12-U:@/tmp/.ICE-unix/2253,unix/MAILLET-12-U:/tmp/.ICE-unix/2253'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31ec8ea2_b732_4785_a25e_411fe7e6538e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/876419782'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/876419782/.mutter-Xwaylandauth.7BH7Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/876419782/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_876419782_hwLJGT'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/imtne.local/leo.chouippe/ros_space/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/imtne.local/leo.chouippe/ros_space/install/Stage:/home/imtne.local/leo.chouippe/ros_space/install/tutorial_pkg:/home/imtne.local/leo.chouippe/install/tutorial_pkg:/opt/ros/iron')]), 'shell': False}
+[56.695081] (-) TimerEvent: {}
+[56.695735] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[56.721143] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[56.751695] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[56.771147] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch\n'}
+[56.780769] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[56.809367] (-) TimerEvent: {}
+[56.852735] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[56.892142] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[56.909598] (-) TimerEvent: {}
+[56.914704] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[56.933530] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[56.960631] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world\n'}
+[56.973782] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps\n'}
+[56.983881] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[57.006154] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[57.009797] (-) TimerEvent: {}
+[57.116143] (-) TimerEvent: {}
+[57.127400] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[57.207285] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[57.216294] (-) TimerEvent: {}
+[57.238224] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[57.255189] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[57.311594] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[57.316426] (-) TimerEvent: {}
+[57.409244] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[57.416640] (-) TimerEvent: {}
+[57.517264] (-) TimerEvent: {}
+[57.617523] (-) TimerEvent: {}
+[57.717031] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[57.717592] (-) TimerEvent: {}
+[57.813216] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[57.817720] (-) TimerEvent: {}
+[57.852964] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/cave_multi.world\n'}
+[57.870444] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[57.893500] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[57.918000] (-) TimerEvent: {}
+[57.936137] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[57.957052] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/include\n'}
+[57.966869] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[58.018215] (-) TimerEvent: {}
+[58.056816] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[58.118375] (-) TimerEvent: {}
+[58.149847] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[58.183260] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[58.218564] (-) TimerEvent: {}
+[58.241861] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[58.280388] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config\n'}
+[58.307780] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz\n'}
+[58.318733] (-) TimerEvent: {}
+[58.319896] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[58.355264] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[58.389873] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[58.418907] (-) TimerEvent: {}
+[58.439573] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[58.489883] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[58.519060] (-) TimerEvent: {}
+[58.540843] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[58.570187] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[58.609640] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy\n'}
+[58.619222] (-) TimerEvent: {}
+[58.619980] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[58.663585] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/lib/libstage_node.so\n'}
+[58.719320] (-) TimerEvent: {}
+[58.819597] (-) TimerEvent: {}
+[58.919845] (-) TimerEvent: {}
+[59.020080] (-) TimerEvent: {}
+[59.120543] (-) TimerEvent: {}
+[59.220827] (-) TimerEvent: {}
+[59.321106] (-) TimerEvent: {}
+[59.421381] (-) TimerEvent: {}
+[59.521649] (-) TimerEvent: {}
+[59.622028] (-) TimerEvent: {}
+[59.666549] (stage_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/lib/libstage_node.so" to ""\n'}
+[59.691860] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[59.722326] (-) TimerEvent: {}
+[59.822870] (-) TimerEvent: {}
+[59.920427] (stage_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""\n'}
+[59.923018] (-) TimerEvent: {}
+[59.932516] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[59.959443] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[59.990187] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[60.021485] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[60.023201] (-) TimerEvent: {}
+[60.036858] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[60.059566] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[60.075983] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[60.116706] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[60.123380] (-) TimerEvent: {}
+[60.136316] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[60.171010] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[60.193387] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[60.221392] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[60.223584] (-) TimerEvent: {}
+[60.244021] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[60.261350] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[60.280907] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/imtne.local/leo.chouippe/ros_space/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[60.323835] (-) TimerEvent: {}
+[60.325558] (stage_ros2) CommandEnded: {'returncode': 0}
+[60.424002] (-) TimerEvent: {}
+[60.524726] (-) TimerEvent: {}
+[60.625419] (-) TimerEvent: {}
+[60.725993] (-) TimerEvent: {}
+[60.727678] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[60.735395] (-) EventReactorShutdown: {}
